@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Amaffi</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="postcard">
+                <div class="header">
+                    <div class="header-titel">
+                        С Новым годом
+                        и Рождеством !
+                    </div>
+                    <div class="header-info">
+                        Украсьте свою волшебную
+                        новогоднюю ёлку, отвечая
+                        на вопросы занимательной викторины
+                    </div>
+                </div>
+                <div class="center">
+                    <div class="center-her" id="center-her" data-current-step="0">
+                        <img class="center-img" src="img/christmasTree.png" alt="">
+                        <div class="center-content">
+                            <div class="mystery">
+                                <div id="question">
+                                </div>
+                                <div class="numders">
+                                    <span id="numder-of-question"></span>
+                                    /
+                                    <span id="numder-of-all-question"></span>
+                                </div>
+                            </div>
+                            <div class="button-container">
+                                <button class="button-answer">
+                                    <svg width="160" height="60" viewBox="0 0 160 46" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.18482 23L15.1648 -4H146.416L158.826 23L146.416 49H15.1648L1.18482 23Z"
+                                            fill="black" stroke="#C0AE73" stroke-width="2" />
+                                    </svg>
+                                    <span data-id="0" class="option option1"></span>
+                                </button>
+                                <button class="button-answer">
+                                    <svg width="160" height="60" viewBox="0 0 160 46" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.18482 23L15.1648 -4H146.416L158.826 23L146.416 49H15.1648L1.18482 23Z"
+                                            fill="black" stroke="#C0AE73" stroke-width="2" />
+                                    </svg>
+                                    <span data-id="1" class="option option2"></span>
+                                </button>
+                                <button class="button-answer">
+                                    <svg width="160" height="60" viewBox="0 0 160 46" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.18482 23L15.1648 -4H146.416L158.826 23L146.416 49H15.1648L1.18482 23Z"
+                                            fill="black" stroke="#C0AE73" stroke-width="2" />
+                                    </svg>
+                                    <span data-id="2" class="option option3"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="center-correct-answer non">
+                            <div class="correct-answer-titel">
+                                <span class="incorrect-answer"></span>
+                                Правильный ответ:
+                            </div>
+                            <div class="correct-answer-text">
+                                <span class="correct-answer">Кости</span>
+                                <div class="answer-text"></div>
+                                <img class="correct-answer-img" src="img/toy1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="button" style="display: none;">
+                            Начать
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
